@@ -1,0 +1,10 @@
+node_modules
+
+#Server
+dist/
+.env
+
+#Client
+.cache/
+public/
+.env.*
