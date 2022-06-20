@@ -1,0 +1,49 @@
+{
+  "name": "mfts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Client for MFTS.",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "lint": "npx eslint 'src/**/*.tsx'",
+    "format": "npx prettier --write 'src/**/*.tsx'"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "gatsby": "^4.15.1",
+    "gatsby-plugin-manifest": "^4.14.0",
+    "gatsby-plugin-postcss": "^5.16.0",
+    "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-helmet": "^6.1.5",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "typescript": "^4.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "2.6.2"
+  }
+}

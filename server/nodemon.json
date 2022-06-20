@@ -1,0 +1,9 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["src/**/*.specs.ts"],
+  "exec": "npx ts-node --require dotenv/config ./src/server.ts",
+  "events": {
+    "start": "clear"
+  }
+}
